@@ -1,4 +1,4 @@
-# 🎓 Skill-Bazzar - E-Learning Platform
+# 🎓 Skill-Bazar - E-Learning Platform
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 [![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/technologies/jsp.html)
@@ -70,15 +70,15 @@ Before running this application, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ArjunPatil15/SkillBazzar.git
+git clone https://github.com/ArjunPatil15/SkillBazar.git
 cd skill-bazzar
 ```
 
 ### 2. Database Setup
 ```sql
 -- Create database
-CREATE DATABASE skill_bazzar;
-USE skill_bazzar;
+CREATE DATABASE skill_bazar;
+USE skill_bazar;
 
 -- Import the provided SQL schema
 -- (Database schema file will be provided separately)
@@ -89,7 +89,7 @@ Update the database connection parameters in `src/main/java/com/ninfinity/dao/Da
 
 ```java
 // Update these values according to your MySQL configuration
-private static final String URL = "jdbc:mysql://localhost:3306/skill_bazzar";
+private static final String URL = "jdbc:mysql://localhost:3306/skill_bazar";
 private static final String USERNAME = "your_username";
 private static final String PASSWORD = "your_password";
 ```
@@ -112,7 +112,7 @@ Set the following environment variables if needed:
 ```bash
 export DB_HOST=localhost
 export DB_PORT=3306
-export DB_NAME=skill_bazzar
+export DB_NAME=skill_bazar
 export DB_USER=your_username
 export DB_PASSWORD=your_password
 ```
